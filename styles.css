@@ -33,10 +33,56 @@
 
 #main-container {
     display: grid;
+    grid-template-areas:
+        "announcments your-projects trending";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+
 }
 
-#your-project {}
+#announcements {
+    display: grid;
+    border: 1px solid black;
+    grid-template-areas:
+        "announcment-item";
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
 
-#announcments {}
+#announcements>* {
+    border: 1px solid black;
+}
 
-#trending {}
+#your-projects {
+    display: grid;
+    border: 1px solid black;
+    grid-template-areas:
+        "your-project-item your-project-item";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#your-projects>* {
+    border: 1px solid black;
+}
+
+#trending {
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas:
+        "trending-item";
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, fr);
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#trending>* {
+    border: 1px solid black;
+}
