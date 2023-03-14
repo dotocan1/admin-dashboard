@@ -1,32 +1,42 @@
-#main-grid-container{
+#main-grid-container {
     display: grid;
-    grid-template-areas: 
-    "header sidebar main-content";
+    grid-template-areas:
+        "header sidebar main-content";
     border: 1px solid black;
-    grid-template-columns: 1frp 1fr 3fr;
+    grid-template-columns: 1fr 1fr 3fr;
     grid-template-rows: auto;
 }
 
-#main-grid-container > * {
-    border: 1px solid black;    
+#main-grid-container>* {
+    border: 1px solid black;
 }
 
-#header{
+#header {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-#sidebar{
-    grid-column-start:1 ;
+#sidebar {
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
     display: block;
 }
 
-#main-content{
-    grid-column-start:2 ;
+#main-content {
+    grid-column-start: 2;
     grid-column-end: 4;
 }
+
+#main-container {
+    display: grid;
+}
+
+#your-project {}
+
+#announcments {}
+
+#trending {}
