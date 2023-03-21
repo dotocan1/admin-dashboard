@@ -29,6 +29,7 @@
 #main-content {
     grid-column-start: 2;
     grid-column-end: 4;
+    background-color: #e2e8f0;
 }
 
 #main-container {
@@ -37,6 +38,8 @@
         "announcments your-projects trending";
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    grid-gap: 2rem;
+    background-color: #e2e8f0;
 
 }
 
@@ -49,10 +52,13 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-start: 3;
     grid-column-end: 4;
+    grid-gap: 2rem;
 }
 
 #announcements>* {
     border: 1px solid black;
+    margin: 1rem;
+    background-color: #f8fafc;
 }
 
 #your-projects {
@@ -66,10 +72,14 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 4;
+    grid-gap: 2rem;
+    background-color: #e2e8f0;
 }
 
 #your-projects>* {
     border: 1px solid black;
+    margin: 1rem;
+    background-color: #f8fafc;
 }
 
 #trending {
@@ -81,8 +91,11 @@
     grid-template-rows: repeat(4, fr);
     grid-column-start: 3;
     grid-column-end: 3;
+    grid-gap: 2rem;
 }
 
 #trending>* {
     border: 1px solid black;
+    margin: 1rem;
+    background-color: #f8fafc;
 }
