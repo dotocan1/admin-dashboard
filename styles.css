@@ -26,7 +26,7 @@
     display: block;
 }
 
-#main-content {
+#content-container {
     grid-column-start: 2;
     grid-column-end: 4;
     background-color: #e2e8f0;
@@ -72,9 +72,11 @@
 }
 
 #announcements-blocks>* {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem;
     background-color: #f8fafc;
+    border-radius: 5px;
+    padding: 1rem;
 }
 
 #your-projects-blocks {
@@ -89,9 +91,11 @@
 }
 
 #your-projects-blocks>* {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem;
     background-color: #f8fafc;
+    border-radius: 5px;
+    padding: 1rem;
 }
 
 #trending-blocks {
@@ -105,7 +109,9 @@
 }
 
 #trending-blocks>* {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem;
     background-color: #f8fafc;
+    border-radius: 5px;
+    padding: 1rem;
 }
