@@ -31,6 +31,7 @@
     grid-column-end: 4;
     background-color: #e2e8f0;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #main-container {
@@ -90,6 +91,7 @@
     background-color: #f8fafc;
     border-radius: 5px;
     padding: 1rem;
+    border-left: 0.5rem solid darkorange;
 }
 
 #trending-blocks {
