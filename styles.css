@@ -79,6 +79,12 @@
     padding: 1rem;
 }
 
+.announcement-border {
+    border: 1px solid black;
+    position: relative;
+    top: 3rem;
+}
+
 #your-projects-blocks {
     display: grid;
     border: 1px solid black;
