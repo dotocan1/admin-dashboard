@@ -24,6 +24,7 @@
     grid-row-start: 1;
     grid-row-end: 4;
     display: block;
+    background-color: #22d3ee;
 }
 
 #content-container {
