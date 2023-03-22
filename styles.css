@@ -37,11 +37,10 @@
     display: grid;
     grid-template-areas:
         "announcments-container your-projects-container trending-container";
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 2rem;
     background-color: #e2e8f0;
-
 }
 
 #announcements-container {
@@ -53,7 +52,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
 }
 
 #trending-container {
@@ -94,6 +93,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 2rem;
     background-color: #e2e8f0;
+    height: 100%;
 }
 
 #your-projects-blocks>* {
