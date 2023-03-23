@@ -54,6 +54,13 @@ body {
     align-items: center;
 }
 
+#sidebar-heading {
+    font-size: 32px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
 #content-container {
     grid-column-start: 2;
     grid-column-end: 4;
