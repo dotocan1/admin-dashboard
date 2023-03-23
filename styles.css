@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 #main-grid-container {
     display: grid;
     grid-template-areas:
@@ -23,8 +24,14 @@ body {
     grid-row-start: 1;
     grid-row-end: 4;
     display: block;
-    background-color: #22d3ee;
+    background-color: #164e63;
     box-shadow: 1px 0px grey;
+    color: white;
+    font-size: 20px;
+}
+
+#sidebar-content {
+    margin-left: 1rem;
 }
 
 #content-container {
