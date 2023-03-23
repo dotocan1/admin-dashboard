@@ -18,6 +18,10 @@ body {
     grid-row-end: 3;
 }
 
+#header-container{
+    margin-left: 2rem;
+}
+
 #sidebar {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -25,7 +29,6 @@ body {
     grid-row-end: 4;
     display: block;
     background-color: #164e63;
-    box-shadow: 1px 0px grey;
     color: white;
     font-size: 20px;
 }
@@ -88,6 +91,7 @@ body {
 }
 
 #your-projects-blocks {
+    margin-left: 2rem;
     display: grid;
     /* border: 1px solid black; */
     grid-template-areas:
