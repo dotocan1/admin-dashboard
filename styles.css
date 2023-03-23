@@ -34,6 +34,16 @@ body {
     margin-left: 1rem;
 }
 
+.sidebar-icons {
+    height: 32px;
+    margin-right: 0.5rem;
+}
+
+.sidebar-nav {
+    display: flex;
+    align-items: center;
+}
+
 #content-container {
     grid-column-start: 2;
     grid-column-end: 4;
