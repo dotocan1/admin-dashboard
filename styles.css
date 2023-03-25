@@ -65,8 +65,8 @@ body {
     margin-top: 2rem;
     display: flex;
     align-items: center;
-}
 
+}
 #content-container {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -120,7 +120,7 @@ body {
     grid-template-areas:
         "your-project-item your-project-item";
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(3, 2fr);
+    grid-template-rows: repeat(auto-fit, 2fr);
     grid-gap: 2rem;
     grid-column-start: 1;
     grid-column-end: 3;
