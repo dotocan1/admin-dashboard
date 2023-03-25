@@ -108,6 +108,9 @@ body {
 
 .announcement-border {
     border: 1px solid darkgray;
+    height: 0px;
+    /* it takes commands from the upper style, padding should be zero */
+    padding: 0;
 }
 
 #your-projects-blocks {
