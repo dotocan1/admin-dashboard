@@ -92,17 +92,12 @@ body {
     grid-template-areas:
         "announcment-item";
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    /* grid-gap: 0.1rem; */
+    grid-template-rows: repeat(5, 1fr);
     grid-column-start: 3;
     grid-column-end: 4;
     margin-right: 2rem;
     background-color: white;
     border-radius: 5px;
-}
-
-#announcements-blocks>* {
-    /* border: 1px solid black; */
     padding: 1rem;
 }
 
@@ -110,7 +105,10 @@ body {
     border: 1px solid darkgray;
     height: 0px;
     /* it takes commands from the upper style, padding should be zero */
-    padding: 0;
+    padding: 0rem;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
 }
 
 #your-projects-blocks {
