@@ -155,3 +155,14 @@ body {
     /* border: 1px solid black; */
     padding: 1rem;
 }
+
+h3{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
