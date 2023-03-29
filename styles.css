@@ -2,12 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-
 #main-grid-container {
     display: grid;
     grid-template-areas:
@@ -15,7 +9,6 @@ body {
     /* border: 1px solid black; */
     grid-template-columns: (1fr 3fr 1fr);
     grid-template-rows: 0.1fr 1fr 1fr;
-    height: 100%;
     background-color: #e2e8f0;
 }
 
