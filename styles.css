@@ -37,6 +37,7 @@ body {
 }
 
 #header-search{
+    /* this makes the flexbox item take up 3/4 portion of the screen */
     flex: 0 0 75%;
 }
 
@@ -89,16 +90,17 @@ body {
     grid-column-end: 4;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    grid-row: 2 /4;
+    grid-row: 2 / 4;
 }
 
-#main-container {
+#ayt-container {
 
     display: grid;
     grid-template-areas:
         "announcments-container your-projects-container trending-container";
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    grid-template-rows: auto;
+    /* grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); */
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 2rem;
     padding-top: 3rem;
     height: 90%;
