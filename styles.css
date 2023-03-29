@@ -131,15 +131,18 @@ body {
 #projects-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 0.1fr 3fr;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-#your-projects-blocks {
+#projects-container > *{
     margin-left: 2rem;
+}
+
+#your-projects-blocks {
     display: grid;
     /* border: 1px solid black; */
     grid-template-areas:
