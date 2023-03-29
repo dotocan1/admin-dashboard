@@ -10,6 +10,7 @@ body {
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr;
     background-color: #e2e8f0;
+    align-content: stretch;    
 }
 
 #header {
@@ -95,10 +96,9 @@ body {
     /* grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); */
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 3rem;
+    grid-gap: 5rem;
     padding-top: 3rem;
     padding-right: 2rem;
-    /* height: 100%; */
 }
 
 #annoucements-container{
@@ -150,11 +150,11 @@ body {
 #your-projects-blocks {
     display: grid;
     /* border: 1px solid black; */
-    grid-template-areas:
-        "your-project-item your-project-item";
-    grid-template-columns: repeat(auto-fit, 2fr);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    /* grid-template-columns: repeat(auto-fit, 2fr); */
     grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 3fr));
+    grid-template-rows: auto;
+
 }
 
 #your-projects-blocks>* {
